@@ -31,6 +31,11 @@ figure {
     margin: 1em;
 }
 
+#gh-link {
+    display: block;
+    margin: 1em;
+}
+
 footer {
     text-align: center;
     margin: 1em;
