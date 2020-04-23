@@ -2,6 +2,28 @@
     text-align: center;
 }
 
+#page {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    display: flex;
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+    .page {
+      width: 768px;
+      margin: 0 auto;
+    }
+    
+    #img-div,
+    #text-div {
+      width: 50%;
+    }
+  }
+
 figure {
     border-width: 1px;
     border-style: solid;
